@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #2ed573;
+}
+.box {
+  margin-bottom: 125px;
+  margin-left: 450px;
+}
+button {
+  box-shadow: inset -50px -50px 0px 0px #ffa502;
+  background-color: #f9cb24;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 4px 25px;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #378de5;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+.cedula {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.notas {
+  margin-left: 55px;
+  margin-right: 5px;
+}
+
+.notas span {
+  position: relative;
+  display: table;
+  top: -20px;
+  left: 100px;
+  font-size: 22pt;
+  color: #f1f2f6;
+}
+
+#dois {
+  margin-top: 85px;
+}
+#um {
+  margin-top: 75px;
+}
+
+.cedula .notas:first-child {
+  margin-left: 40px;
+  margin-right: 50px;
+}
